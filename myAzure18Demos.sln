@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myDemoGuestbookWeb", "myDemoGuestbookWeb\myDemoGuestbookWeb.csproj", "{737B783E-7035-4DA6-A7D5-DD0815AFAAD1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{4AE979E6-B197-40F9-BD28-15C24729C64A}"
+	ProjectSection(SolutionItems) = preProject
+		myVM.json = myVM.json
+		..\..\..\AppDev\Azure17\lnoGuestBook\README.md = ..\..\..\AppDev\Azure17\lnoGuestBook\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
